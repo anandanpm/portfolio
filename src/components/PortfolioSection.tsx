@@ -19,7 +19,7 @@ const PortfolioSection = () => {
     description:
       'Full-featured e-commerce platform with authentication, cart, Razorpay payments, and inventory management using EJS and Node.js.',
     image: 'https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=600&h=400&fit=crop',
-    technologies: ['Node.js', 'Express.js', 'EJS', 'MongoDB', 'Razorpay','HTML','CSS'],
+    technologies: ['Node.js', 'Express.js', 'EJS', 'MongoDB', 'Razorpay', 'HTML', 'CSS'],
     github: 'https://github.com/anandanpm/project-ecommerce',
     live: 'https://lensluxe.onrender.com/',
     featured: true,
@@ -87,7 +87,24 @@ const PortfolioSection = () => {
     github: 'https://github.com/anandanpm',
     live: 'https://article-hub-frontend.vercel.app/',
     metrics: {
-  security: 'JWT + bcrypt',
+      security: 'JWT + bcrypt',
+    },
+  },
+  {
+    id: 5,
+    title: 'Environment Variable Validator – EnvKeeper',
+    category: 'npm',
+    description:
+      'Robust Node.js utility to validate, enforce, and type-check environment variables, helping developers catch critical config bugs early in development.',
+    image: 'https://images.unsplash.com/photo-1603791440384-56cd371ee9a7?w=600&h=400&fit=crop',
+    technologies: ['Node.js', 'TypeScript', 'Validation', 'NPM', 'Developer Tools'],
+    github: 'https://github.com/anandanpm/env-keeper',
+    live: 'https://www.npmjs.com/package/envkeeper',
+    featured: true,
+    metrics: {
+      validations: 'Type-safe',
+      patterns: 'Regex Supported',
+      formats: 'Email, URL, JSON, Port',
     },
   },
 ];
